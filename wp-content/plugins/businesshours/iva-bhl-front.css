@@ -1,0 +1,46 @@
+.businesshours {
+	position: relative;
+	clear:both;
+	display: block;
+	border-bottom: 1px solid #eee;
+	font-size:11px;
+	}
+	
+.businesshours p {
+	display: block;
+	border-top:1px solid #eee;
+	padding:5px 0;
+	margin: 0;
+	overflow: hidden;
+	}
+		
+.businesshours span.days {
+	font-weight: bold;
+	width: 40%;
+	display: block;
+	float: left;
+	text-align: left;
+	vertical-align:middle;
+	}			
+		
+.businesshours span.hours {
+	width:60%;
+	display:block;
+	float: right;
+	text-align: right;
+	}
+			
+.businesshours p {
+	display: block;
+	padding:5px;
+	overflow: hidden;
+	}
+		
+.businesshours span.hours span {
+	background:#f22;
+	color:#fff;
+	padding:3px 10px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	}
